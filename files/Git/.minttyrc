@@ -1,0 +1,17 @@
+Language=zh_CN
+Term=xterm-256color
+ConfirmExit=no
+PgUpDnScroll=yes
+MiddleClickAction=void
+RightClickAction=paste
+Font=Consolas
+FontHeight=15
+BoldAsFont=yes
+Locale=zh_CN
+Charset=UTF-8
+AllowBlinking=yes
+ThemeFile=dracula
+Transparency=low
+CursorType=block
+CursorBlinks=no
+Scrollbar=none

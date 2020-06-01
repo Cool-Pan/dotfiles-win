@@ -1,0 +1,14 @@
+[DisableKey]
+Index=2
+KeyCode1=20
+KeyCode2=27
+[Settings]
+Sign=KeyExtender
+[SwapKey]
+Caps Lock=Esc
+Esc=DisableKey
+[SwapScrKeyCode]
+Caps Lock=20
+Esc=27
+[ShowDiag]
+ChangeSuc=0

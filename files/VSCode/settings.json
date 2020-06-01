@@ -1,0 +1,77 @@
+{
+
+// 编辑器：
+    // 以像素为单位控制字号。
+    "editor.fontSize": 16,
+
+
+// 工作台：
+    // 指定工作台中使用的颜色主题。
+    "workbench.colorTheme": "Monokai Dimmed",
+
+    // 指定在工作台中使用的图标主题，或指定 "null" 以不显示任何文件图标。
+    "workbench.iconTheme": "vscode-icons",
+
+    // 在未能恢复上一会话信息的情况下，控制启动时显示的编辑器。选择 "none" 表示启动时不打开编辑器，"welcomePage" 表示打开欢迎页面(默认)，"newUntitledFile" 表示打开新的无标题文档(仅打开一个空工作区)。
+    "workbench.startupEditor": "none",
+
+
+// 更新：
+    // 配置是否从更新通道接收自动更新。更改后需要重启。
+    "update.channel": "none",
+
+
+// 遥测：
+    // 启用要发送给 Microsoft 的故障报表。
+    // 此选项需重启才可生效。
+    "telemetry.enableCrashReporter": false,
+
+    // 启用要发送给 Microsoft 的使用情况数据和错误。
+    "telemetry.enableTelemetry": false,
+
+
+// GitLens Configuration：
+    // Specifies which messages should be suppressed
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressResultsExplorerNotice": false,
+        "suppressUpdateNotice": false,
+        "suppressWelcomeNotice": true
+    },
+
+
+// Vim Configuration：
+    // Enable the EasyMotion plugin for Vim.
+    "vim.easymotion": true,
+
+    // Non-recursive remapped keys in normal mode. Allows mapping to vim commands or vscode actions. See README for more.
+    "vim.otherModesKeyBindingsNonRecursive": [
+        {
+            "before": ["L"],
+            "after": ["$"]
+        },
+        {
+            "before": ["H"],
+            "after": ["0"]
+        },
+        {
+            "before": [";"],
+            "after": [":"]
+        }
+    ],
+
+    // 移动(j/k)时自动展开已折叠代码.
+    "vim.foldfix": true,
+
+
+// vscode-icon：
+    // 如果设置成 true，关于新的版本消息将不再显示
+    "vsicons.dontShowNewVersionMessage": true,
+
+
+}
